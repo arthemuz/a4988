@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 {
   QCoreApplication a(argc, argv);
 
- toto.init();
+ toto.init(); //test
  wiringPiISR (25, INT_EDGE_RISING, &myInterrupt); // interuption  axe x start
  toto.PasX(8000,1);
  delay(2000);

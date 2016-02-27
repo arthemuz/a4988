@@ -10,7 +10,7 @@ class a4988
 {
 public:
     a4988();
-  void init();
+  void init(); // test
   void PasX(int pas,int direction);
 
 
